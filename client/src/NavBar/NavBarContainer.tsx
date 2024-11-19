@@ -8,12 +8,12 @@ const NavBarContainer = () => {
         <div className="flex flex-col h-full justify-start">
             {/* This will need to have a prop for the icon file name */}
             {/* Just store all the icons in the public directory */}
-            <NavBarElement title="Home" />
-            <NavBarElement title="Travel" />
-            <NavBarElement title="Accomodations" />
-            <NavBarElement title="Tours" />
-            <NavBarElement title="Dining" />
-            <NavBarElement title="Trip Cost" />
+            <NavBarElement title="Home" iconPath="home" />
+            <NavBarElement title="Travel" iconPath="travel" />
+            <NavBarElement title="Lodgings" iconPath="hotel" />
+            <NavBarElement title="Tours" iconPath="tours" />
+            <NavBarElement title="Dining" iconPath="food" />
+            <NavBarElement title="Trip Cost" iconPath="money" />
             <div className="mt-auto bg-blue-100 py-4 px-2">
                 Trip Planner &copy;
             </div>
