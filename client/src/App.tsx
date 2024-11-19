@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="bg-blue-800 w-full flex flex-col border-l-4 border-indigo-900">
         {/* 7/8 main section */}
-        <div className="text-center bg-gray-300 text-3xl py-4">
+        <div className="text-center bg-gray-300 text-3xl py-4 border-b-4 border-indigo-900">
           {/* This will be based on the current url path */}
           {/* 1/6 top tab */}
           Home Tab
